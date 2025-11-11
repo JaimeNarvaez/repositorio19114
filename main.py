@@ -14,10 +14,6 @@ async def on_ready():
     print(f'Hemos iniciado sesión como {bot.user}')
 
 @bot.command()
-async def hello(ctx):
-    await ctx.send("Hi!")
-
-@bot.command()
 async def bye(ctx):
     await ctx.send("😒")
 
